@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{{ title }}</title>
+</head>
+<body>
+    <h1>{{ name }}</h1>
+    <p>{{ experience }}</p>
+    <p>Навички:</p>
+    <ul>
+        {% for skill in skills %}
+        <li>{{ skill }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
